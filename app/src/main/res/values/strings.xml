@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoStyles</string>
+    <string name="sub_title">SubTitle in strings.xml</string>
+    <string name="title">Title in strings.xml</string>
+</resources>

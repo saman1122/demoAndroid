@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/themePerso"
+    tools:context="fr.saman.demostyles.MainActivity">
+
+    <TextView
+        style="@style/textViewStyle"
+        android:text="Title !"
+        android:layout_gravity="center"
+        android:id="@+id/titleMain"/>
+
+    <fr.saman.demostyles.CardViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </fr.saman.demostyles.CardViewGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemonImage"/>
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="namePokemon"
+        android:id="@+id/pokemonName"/>
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="heightPokemon"
+        android:id="@+id/pokemonHeight"/>
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weightPokemon"
+        android:id="@+id/pokemonWeight"/>
+
+</LinearLayout>
